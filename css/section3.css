@@ -1,0 +1,49 @@
+@import './globalsValors.css' all;
+
+
+.section3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 h2{
+    font-family: var(--fontHeading);
+    font-size: 30px;
+    color: var(--VeryDarkCyan);
+}
+
+.section3 button{
+    font-family: var(--fontHeading);
+    font-size: 15px;
+    color: var(--VeryPaleBlue);
+    border: none;
+    background-color: var(--Pink);
+    padding: 20px 70px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.section3 button:hover{
+   cursor: pointer;
+}
+.section3 button:active{
+   transform: scale(1.2);
+}
+.section3 h2{
+    text-align: center;
+    font-size: 26px;
+    margin:  100px 0;
+}
+
+@media (max-width: 375px) {
+
+    .section3 h2{
+        text-align: center;
+        font-size: 26px;
+    }
+        
+}

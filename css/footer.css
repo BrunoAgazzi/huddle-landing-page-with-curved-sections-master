@@ -5,7 +5,7 @@
 .footer-container{
     background-color: var(--VeryDarkCyan);
     margin-top: -4px;
-    padding: 50px 200px;
+    padding: 50px 100px;
     color: var(--VeryPaleBlue);
     display: flex;
     justify-content: space-between;
@@ -78,6 +78,9 @@
     padding: 5px;
     border-radius: 10px;
 }
+form{
+    display: flex;
+}
 
 
 
@@ -86,12 +89,13 @@
 @media (max-width: 700px) {
     .footer-container{
         margin-top: -5px;
-        padding: 30px;
+        padding: 20px;
         flex-direction: column-reverse;
     }
     .footer-div2 input {
-       width: 90%;
+       width: 80%;
        margin-bottom: 20px;
+       padding: 10px;
    }
     .footer-div2 p{
         width: 100%;
@@ -103,9 +107,15 @@
         display: flex;
         align-items: flex-end;
         flex-direction: column;
+        width: 100% ;
     }
     .footer-div1{
         width: 100%;
+    }
+    form{
+        flex-direction: column;
+        align-items: center;        
+        width: 100% ;
     }
    
 }

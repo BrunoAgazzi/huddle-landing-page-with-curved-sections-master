@@ -11,6 +11,7 @@
  
 </head>
 <body>
+  <main>
   <header>     
     <img src="./images/logo.svg"  alt="logo" />    
     <button>Try it Free</button>
@@ -100,7 +101,7 @@
     <h2>Ready To Build Your Community?</h2>
     <button>Get Started For Free</button>
   </section>
-</body>
+</main>
 <footer>
   <img src="./images/bg-footer-top-desktop.svg" class="section-top" alt="top footer" />
   <div class="footer-container">
@@ -130,7 +131,8 @@
       <p>To recieve tips how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email adress.</p>
       <div class="div-subscribe">
         <form>
-        <input type="email" />
+        <label style="display: none;" for="email">email</label>
+        <input type="email" name="email"/>
         <button type="submit">Subscribe</button>
       </form>
       </div>
@@ -138,5 +140,6 @@
   </div>    
  
 </footer>
+</body>
 
 </html>

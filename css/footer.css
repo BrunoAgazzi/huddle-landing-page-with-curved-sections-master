@@ -93,7 +93,7 @@
         flex-direction: column-reverse;
     }
     .footer-div2 input {
-       width: 80%;
+       width: 100%;
        margin-bottom: 20px;
        padding: 10px;
    }

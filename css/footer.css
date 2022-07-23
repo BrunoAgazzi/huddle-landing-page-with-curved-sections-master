@@ -81,6 +81,10 @@
 .form{
     display: flex;
 }
+label{
+    color: var(--VeryDarkCyan);
+    font-size: 1px;
+}
 
 
 
